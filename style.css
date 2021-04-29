@@ -45,10 +45,52 @@ table {
 /* AQUI COMEÇA NOSSO CSS */
 
 .header-home {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  background-image: url("images/bg-header-desktop.png");
  background-repeat: no-repeat;
  height: 100vh;
+ padding: 30px;
 }
+.content-image {
+    margin-top: 44px;
+    margin-bottom: 76px;
+}
+.content-text {
+    text-align: center;
+	
+}
+
+.content-text h1 {
+    font-size: 36px;
+    
+
+}
+
+.content-text p {
+    font-size: 24px;
+		color: #666;
+}
+
+.content-button-ios button {
+    margin-top: 44px;
+    border-radius: 30px;
+		padding: 12px 24px;
+		width: 250px;
+		background-color: hsl(171, 66%, 44%);
+        color: #f1f1f1;
+}
+
+.content-button-android button {
+    margin-top: 16px;
+    border-radius: 30px;
+		padding: 12px 24px;
+		width: 250px;
+		background-color: hsl(233, 100%, 69%);
+        color: #f1f1f1;
+}
+
 
 @media screen and (max-width: 375px) {
   .header-home {
