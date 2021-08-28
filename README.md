@@ -1,3 +1,6 @@
+#RESULTADO
+### https://leooferreira.github.io/landingpage/
+
 # Página para estudos
 > Vamos utilizar essas tecnologias abaixo:
  - HTML5
